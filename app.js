@@ -1,3 +1,18 @@
+// comparison Opraters 
+
+if(10 > 11){
+console.log("Grater then  > ")
+}
+if(11 < 10){
+console.log("less then  < ")
+}
+if(10 == 10){
+console.log("equal to  == ")
+}
+if(10 != 9){
+console.log("not Equal to  != ")
+}
+
 //  percentage calculate
 var math = +prompt("Enter You Math Marks");
 var english = +prompt("Enter You english Marks");
@@ -40,6 +55,8 @@ if(percentage >= 35){
 var Arr = ["Noman","Ali","Asim","Yaseer","Ameen"];
 
 console.log(Arr);
+
+console.log(Arr[3);
 
 Arr[8] = "Usman";
 
